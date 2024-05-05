@@ -1,0 +1,15 @@
+.titulo{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.aprobado {
+    --background: green!important;
+    margin-bottom: 1rem;
+  }
+  
+  .reprobado {
+    --background: red!important;
+    margin-bottom: 1rem;
+  }

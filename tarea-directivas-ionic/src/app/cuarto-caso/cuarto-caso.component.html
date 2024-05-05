@@ -1,3 +1,6 @@
-<p>
-  cuarto-caso works!
-</p>
+<ion-title class="titulo">
+  Cuarto Caso
+</ion-title>
+<ion-item [ngClass]="calificacion > 65 ? 'aprobado' : 'reprobado'">
+  Calificación: {{ calificacion }}
+</ion-item>

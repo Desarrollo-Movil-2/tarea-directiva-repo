@@ -1,7 +1,9 @@
 <ion-title class="titulo">
-  Captura de Teléfono
+  Tercer Caso
 </ion-title>
-<ion-item>
+<ion-item class="item-forms">
   <ion-label position="floating">Número de Teléfono</ion-label>
-  <ion-input [(ngModel)]="phoneNumber" type="tel"></ion-input>
+  <ion-input [(ngModel)]="phoneNumber" type="tel" (keypress)="checkNumber($event)"></ion-input>
 </ion-item>
+<ion-label position="floating">Número de Teléfono que se est ingresando: </ion-label>
+<ion-item class="mb-1">{{phoneNumber}}</ion-item>

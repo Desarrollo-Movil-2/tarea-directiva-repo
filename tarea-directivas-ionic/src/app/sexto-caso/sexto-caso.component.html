@@ -1,3 +1,10 @@
-<p>
-  sexto-caso works!
-</p>
+<ion-title class="titulo">
+  Sexto Caso
+</ion-title>
+
+<div [ngSwitch]="colorButton">
+  <ion-button *ngSwitchCase="'primary'" color="primary">Primary Button</ion-button>
+  <ion-button *ngSwitchCase="'dark'" color="dark">Dark Button</ion-button>
+  <ion-button *ngSwitchCase="'danger'" color="danger">Danger Button</ion-button>
+  <ion-button *ngSwitchDefault color="secondary">Default Button</ion-button>
+</div>
