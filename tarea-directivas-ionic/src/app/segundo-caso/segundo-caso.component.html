@@ -1,3 +1,12 @@
-<p>
-  segundo-caso works!
-</p>
+
+
+<ion-title class="titulo">
+    Lista de Animales
+</ion-title>
+  <ion-list>
+    @for( animal of animals; track $index){
+      <ion-item>
+        {{ animal }}
+      </ion-item>
+    }
+  </ion-list>

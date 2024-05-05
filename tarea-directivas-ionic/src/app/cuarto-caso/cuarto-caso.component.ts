@@ -1,14 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cuarto-caso',
   templateUrl: './cuarto-caso.component.html',
   styleUrls: ['./cuarto-caso.component.scss'],
+  standalone: true,
 })
-export class CuartoCasoComponent  implements OnInit {
-
+export class CuartoCasoComponent  {
   constructor() { }
-
-  ngOnInit() {}
-
 }

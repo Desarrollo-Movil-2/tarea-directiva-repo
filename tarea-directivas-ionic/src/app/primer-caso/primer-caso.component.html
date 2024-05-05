@@ -1,3 +1,17 @@
-<p>
-  primer-caso works!
-</p>
+
+
+  <ion-title class="titulo">
+    Contador de Edad
+  </ion-title>
+  <div class="contenedor">
+    <ion-button (click)="incrementarContador()">Incrementar</ion-button>
+    <div>
+      Contador: {{ contador }}
+    </div>
+  </div>
+ 
+  @if(contador >= 18){
+    <ion-item class="texto-alerta">
+      Felicidades, ya eres mayor de edad
+    </ion-item>
+  }

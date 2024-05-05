@@ -1,0 +1,17 @@
+.titulo{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto-alerta{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
